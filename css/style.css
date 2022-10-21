@@ -132,13 +132,6 @@ main {
   background-color: var(--primary-background);
   margin-left: var(--aside-main);
 }
-
-#main-header {
-  background-color: lightgray;
-  padding: 20px;
-  box-shadow: 0 0 50px black;
-}
-
 #main-title, h2 {
   text-align: center;
 }
@@ -160,7 +153,7 @@ main {
 /* Styling My Tecnologies section */
 #technologies {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -193,4 +186,33 @@ footer {
   text-align: center;
   font-weight: bold;
   color: var(--emphasize-color);
+}
+
+/* Media Queries */
+@media (max-width: 840px) {
+  aside {
+    position: static;
+    overflow: hidden;
+    width: 100vw;
+    height: 580px;
+  }
+  main {
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  #about, #my-technologies {
+    padding: 0 20px;
+  }
+
+  #technologies header h1 {
+    width: 75vw;
+  }
+  #technologies .logos {
+    width: 75vw;
+    padding: 0 20px;
+  }
+  #technologies img {
+    width: 70px;
+  }
 }
