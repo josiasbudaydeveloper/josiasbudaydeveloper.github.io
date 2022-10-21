@@ -216,3 +216,27 @@ footer {
     width: 70px;
   }
 }
+
+@media (max-width: 449px) {
+  aside {
+    height: 590px;
+  }
+}
+
+@media (max-width: 349px) {
+  aside {
+    height: 605px;
+  }
+}
+
+@media (max-width: 284px) {
+  aside {
+    height: 635px;
+  }
+}
+
+@media (max-width: 258px) {
+  aside {
+    height: 655px;
+  }
+}
