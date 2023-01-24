@@ -63,7 +63,7 @@ h1 {
   color: var(--emphasize-color);
 }
 
-/* Aside Styles */
+/* Aside Menu */
 aside {
   position: fixed;
   left: 0;
@@ -142,7 +142,7 @@ main {
 }
 
 #about, #my-technologies {
-  padding: 20px 40px;
+  padding: 10px 40px;
   font-weight: bold;
 }
 
@@ -150,7 +150,12 @@ main {
   color: var(--emphasize-color);
 }
 
-/* Styling My Tecnologies section */
+/* About Section */
+#about a {
+  color: var(--emphasize-color);
+}
+
+/* My Tecnologies Section */
 #technologies {
   display: flex;
   justify-content: space-evenly;
@@ -180,7 +185,7 @@ main {
   padding-bottom: 20px;
 }
 
-/* Styling Footer */
+/* Footer Section*/
 footer {
   padding: 20px 0;
   text-align: center;
