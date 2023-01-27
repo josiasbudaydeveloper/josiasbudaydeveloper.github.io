@@ -199,7 +199,7 @@ footer {
     position: static;
     overflow: hidden;
     width: 100vw;
-    height: 480px;
+    height: 510px;
   }
   main {
     width: 100vw;
@@ -224,6 +224,6 @@ footer {
 
 @media (max-width: 449px) {
   aside {
-    height: 510px;
+    height: 540px;
   }
 }
