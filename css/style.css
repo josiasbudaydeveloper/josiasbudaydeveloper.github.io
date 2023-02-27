@@ -141,12 +141,12 @@ main {
   margin-top: 0;
 }
 
-#about, #my-technologies {
+#about, .skills {
   padding: 10px 40px;
   font-weight: bold;
 }
 
-#about .header, #my-technologies .header {
+#about .header, .skills .header {
   color: var(--emphasize-color);
 }
 
@@ -155,14 +155,14 @@ main {
   color: var(--emphasize-color);
 }
 
-/* My Tecnologies Section */
-#technologies {
+/* Skills Section */
+.technologies {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-#technologies header h1 {
+.technologies header h1 {
   font-weight: bold;
   font-size: 18px;
   width: 400px;
@@ -173,15 +173,15 @@ main {
   box-shadow: 0 5px 8px black;
 }
 
-#technologies .logos {
+.technologies .logos {
   width: 400px;
   padding: 0 28px;
 }
-#technologies img {
+.technologies img {
   width: 90px;
 }
 
-#my-technologies {
+.skills {
   padding-bottom: 20px;
 }
 
@@ -206,18 +206,18 @@ footer {
     margin-left: 0;
   }
 
-  #about, #my-technologies {
+  #about, .skills {
     padding: 0 20px;
   }
 
-  #technologies header h1 {
+  .technologies header h1 {
     width: 75vw;
   }
-  #technologies .logos {
+  .technologies .logos {
     width: 75vw;
     padding: 0 20px;
   }
-  #technologies img {
+  .technologies img {
     width: 70px;
   }
 }
