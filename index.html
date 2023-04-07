@@ -59,7 +59,7 @@
     <section id="about">
       <header><h1 class="header">About me</h1></header>
       <p>
-        Hi, my name's Josias Buday Dias. I'm 23 years old and I'm from Brazil. I'm currently studying 
+        Hi, my name's Josias Buday Dias. I'm <span id="years"></span> years old and I'm from Brazil. I'm currently studying 
         superior technological course in Analisys and Systems Development at Universidade Estácio de Sá. 
         In addition, I'm studying Full Stack JavaScript (JS) development since I started the superior 
         course at 02/2021.
@@ -138,5 +138,28 @@
   <!-- Ionic Icons -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Personal Script Configuration -->
+  <script>
+    function calculateAge(birthDate) {
+      const now = new Date();
+      let yearDiff = now.getFullYear() - birthDate.getFullYear();
+      const monthDiff = now.getMonth() - birthDate.getMonth();
+      const dayDiff = now.getDate() - birthDate.getDate();
+      
+      // Adjust age when birth date is later in the year
+      if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+        yearDiff--;
+      }
+      
+      return yearDiff;
+    }
+
+    window.onload = (() => {
+      const birthDate = new Date('1999-10-14');
+      let years = calculateAge(birthDate);
+      document.getElementById('years').innerText = years;
+    });
+  </script>
 </body>
 </html>
