@@ -108,7 +108,7 @@ aside p, #contacts {
   padding: 0;
 }
 
-#contacts li > *{
+#contacts li > * {
   display: inline-block;
   vertical-align: middle;
 }
