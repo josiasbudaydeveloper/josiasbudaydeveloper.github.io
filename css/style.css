@@ -190,6 +190,10 @@ footer {
   padding: 20px 0;
   text-align: center;
   font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
   color: var(--emphasize-color);
 }
 
