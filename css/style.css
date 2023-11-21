@@ -4,7 +4,7 @@
   --secondary-color: white;
   --emphasize-color: #0073ff;
   --secondary-background: #000547;
-  --primary-background: white;
+  --primary-background: #F6F6F6;
 
   --aside-main: 340px;
 }
@@ -51,6 +51,11 @@ body {
 
 h1 {
   font-family: Tahoma;
+}
+
+p {
+  max-width: 800px;
+  text-align: justify;
 }
 
 .text-center {
@@ -161,13 +166,13 @@ main {
 }
 
 /* Technologies Section */
-#technologies-area {
+.items-area {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-.technology-item-header {
+.items-area-item-header {
   font-weight: bold;
   font-size: 18px;
   width: 400px;
@@ -178,12 +183,20 @@ main {
   box-shadow: 0 5px 8px black;
 }
 
-#technologies-area .logos-area {
+.items-area .logos-area {
   width: 400px;
   padding: 0 28px;
 }
 
-#technologies-area img {
+.items-area p {
+  max-width: 400px;
+  height: 37px;
+  overflow: auto;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.items-area img {
   width: 90px;
 }
 

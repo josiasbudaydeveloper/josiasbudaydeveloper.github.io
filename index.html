@@ -80,16 +80,15 @@
     <div style="max-width: 992px;">
       <section id="about" class="paddingX paddingY">
         <header><h1 class="emphasize main-header">About me</h1></header>
-        <p class="paragraph" style="max-width: 800px; text-align: justify;">
+        <p class="paragraph">
           Hi, my name's Josias Buday Dias. I'm <span id="years"></span> years old and I'm from Brazil. I'm 
           graduated in Technological (it's similar to an associate degree) course in Analysis and Systems Development at 
           Universidade Estácio de Sá. <br /><br /> 
 
-          Currenly, I'm finishing a Responsive Web Design tutorial originally created by 
-          JavaScript Mastery that I'm learning how to use React, Vite and Tailwind.css together. <br /><br />
-
-          After that, I intend to start the official Next.js 14's Tutorial, a beautiful and responsive SPA 
-          Dashboard, totally based on the Next.js's App Router feature and all the main features of a complete application: <br /><br />
+          Currenly, I'm preparing for study and start the Next.js 14's Official Tutorial, a beautiful 
+          and responsive SPA (Single Page Application) Dashboard, 
+          totally based on the Next.js's App Router feature and all the main features of a 
+          complete application: <br /><br />
             - Authentication, <br />
             - Serverless <br />
             - PostGreSQL on Vercel <br />
@@ -104,9 +103,9 @@
       <section id="technologies" class="paddingX paddingY">
         <header><h1 class="emphasize main-header">My techonologies</h1></header>
         <p class="paragraph">These are these are the main technologies I currently know: </p>
-        <section id="technologies-area">
-          <section class="technology-item">
-            <header><h1 class="technology-item-header">Front-End</h1></header>
+        <section class="items-area">
+          <section>
+            <header><h1 class="items-area-item-header">Front-End</h1></header>
               
             <div class="logos-area">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML 5" alt="HTML 5"/>
@@ -119,8 +118,8 @@
             </div>
           </section>
     
-          <section class="technology-item">
-            <header><h1 class="technology-item-header">Back-End</h1></header>
+          <section>
+            <header><h1 class="items-area-item-header">Back-End</h1></header>
     
             <div class="logos-area">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"  title="Node.js" alt="Node.js"/>            
@@ -131,8 +130,8 @@
             </div>
           </section>
     
-          <section class="technology-item">
-            <header><h1 class="technology-item-header">Data Base</h1></header>
+          <section>
+            <header><h1 class="items-area-item-header">Data Base</h1></header>
     
             <div class="logos-area">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"  title="MongoDB" alt="MongoDB"/>
@@ -142,8 +141,8 @@
             
           </section>
     
-          <section class="technology-item">
-            <header><h1 class="technology-item-header">DevOps</h1></header>
+          <section>
+            <header><h1 class="items-area-item-header">DevOps</h1></header>
     
             <div class="logos-area">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"  title="Git" alt="Git"/>            
@@ -167,9 +166,63 @@
         </div>
       </section>
 
+      <section id="live-projects" class="paddingX paddingY">
+        <header><h1 class="emphasize main-header">My live projects</h1></header>
+        <p class="paragraph">
+          These boxes below are my current online projects. If you want to know 
+          all that I did, I strongly recommend you to access my GitHub (josiasbudaydeveloper):
+        </p>
+        <section class="items-area">
+          <section>
+            <header>
+              <h1 class="items-area-item-header">
+                Next.js 13's Official Pages Router Tutorial
+              </h1>
+            </header>
+            <p>
+              A simple fake blog for teaching Next.js 13's Pages Router principles: <br>
+                - CSR vs SSR vs SSG <br />
+                -  <br />
+                -  <br />
+            </p>
+              
+            <div class="logos-area">
+              <a 
+                href="https://josiasbudaydeveloper-blog-app.vercel.app/" 
+                target="_blank"
+              >
+                <img 
+                  src="images/BlogApp.png" style="width: 100%; height: auto; object-fit: contain;"
+                  alt="Blog App: A simple fake blog for teaching the Next.js's principles"
+                  title="Visit"
+                />
+              </a>
+            </div>
+          </section>
+
+          <section>
+            <header><h1 class="items-area-item-header">JavaScript Mastery's HooBank Tutorial</h1></header>
+            <p>Beautiful Responsive Web Design built with React.js, Vite, TypeScript and Tailwind.css</p>
+              
+            <div class="logos-area">
+              <a 
+                href="https://josiasbudaydeveloper-beautiful-responsive-web-design.vercel.app/" 
+                target="_blank"
+              >
+                <img 
+                  src="images/HooBank.png" style="width: 100%; height: auto; object-fit: contain;"
+                  alt="HooBank: A beautiful responsive web design"
+                  title="Visit"
+                />
+              </a>
+            </div>
+          </section>
+        </section>
+      </section>
+
       <section id="hire-me" class="paddingX paddingY">
         <p class="paragraph">
-          I'm currently: searching for a job! <br />
+          I'm currently: <span class="emphasize">looking</span> for a job! <br />
           You can see my CV at: 
           <a href="https://docs.google.com/document/d/1xMp28sI9VihSy4nrfQ91WBeyScseWrqkQKB0tSUSNFI/edit?usp=sharing" 
             target="_blank" class="main-anchor emphasize"
