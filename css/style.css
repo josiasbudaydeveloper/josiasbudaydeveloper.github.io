@@ -192,13 +192,16 @@ main {
 .items-area p {
   max-width: 400px;
   height: 37px;
-  overflow: auto;
   font-weight: bold;
-  box-sizing: border-box;
 }
 
 .items-area img {
   width: 90px;
+}
+
+.description-overflow {
+  margin: 20px;
+  overflow: auto;
 }
 
 /* Other Skills section */
