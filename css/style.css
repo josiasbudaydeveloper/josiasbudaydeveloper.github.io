@@ -43,6 +43,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: sans-serif;
   font-size: 1rem;
   overflow-x: hidden;
@@ -218,18 +219,14 @@ main {
     margin-left: 0;
   }
 
-  #about, #other-skills {
-    padding: 0 20px;
-  }
-
-  #technologies header h1 {
+  #technologies header h1, #live-projects header h1 {
     width: 75vw;
   }
-  #technologies .logos-area {
+  #technologies .logos-area, #live-projects .logos-area {
     width: 75vw;
     padding: 0 20px;
   }
-  #technologies img {
+  #technologies img, #live-projects img {
     width: 70px;
   }
 }
@@ -237,5 +234,8 @@ main {
 @media (max-width: 449px) {
   aside {
     height: 540px;
+  }
+  main {
+    overflow: hidden;
   }
 }
