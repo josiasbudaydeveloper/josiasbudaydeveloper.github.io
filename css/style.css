@@ -1,3 +1,9 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 /* Root variables */
 :root {
   --primary-color: black;
@@ -146,7 +152,7 @@ aside h2, #contacts {
 
 #contacts ul a ion-icon {
   color: var(--secondary-color);
-  font-size: 20px;
+  width: 20px;
   margin: 5px 0;
 }
 
@@ -257,11 +263,11 @@ main {
     position: static;
     overflow: hidden;
     width: 100vw;
-    height: 510px;
+    height: 530px;
   }
   main {
     width: 100vw;
-    margin-top: 0;
+    padding-top: 0;
     margin-left: 0;
   }
   #main-navigation {
