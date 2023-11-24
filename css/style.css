@@ -255,6 +255,7 @@ main {
     width: 100vw;
     height: 510px;
   }
+
   main {
     width: 100vw;
     margin-top: 0;
@@ -274,9 +275,12 @@ main {
   #technologies img, #live-projects img {
     width: 70px;
   }
+ .description-overflow {
+  width: 75vw;
+ }
 }
 
-@media (max-width: 449px) {
+@media (max-width: 512px) {
   aside {
     height: 540px;
   }
