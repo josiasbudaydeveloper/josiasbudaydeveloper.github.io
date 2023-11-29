@@ -1,8 +1,57 @@
-export default function About() { return (
+/*
+<script>
+  function calculateAge(birthDate) {
+    const now = new Date();
+    let yearDiff = now.getFullYear() - birthDate.getFullYear();
+    const monthDiff = now.getMonth() - birthDate.getMonth();
+    const dayDiff = now.getDate() - birthDate.getDate();
+
+    // Adjust age when birth date is later in the year
+    if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+      yearDiff--;
+    }
+
+    return yearDiff;
+  }
+
+  window.onload = (() => {
+    const birthDate = new Date('1999-10-14');
+    let years = calculateAge(birthDate);
+    document.getElementById('years').innerText = years;
+  });
+</script>
+*/
+import { useEffect, useState } from "react";
+
+export default function About() {
+  const BIRTHDATE: Date = new Date('1999-10-14');
+
+  const [currentYears, setCurrentYears] = useState(0);
+
+  function calculateAge(birthDate: Date) : number {
+    const now = new Date();
+    let yearDiff = now.getFullYear() - birthDate.getFullYear();
+    const monthDiff = now.getMonth() - birthDate.getMonth();
+    const dayDiff = now.getDate() - birthDate.getDate();
+
+    // Adjust age when birth date is later in the year
+    if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+      yearDiff--;
+    }
+
+    return yearDiff;
+  }
+
+
+  useEffect(() => {
+    setCurrentYears(calculateAge(BIRTHDATE));
+  }, []);
+  
+  return (
   <section id="about" className="paddingX paddingY">
     <header><h1 className="emphasize main-header">About me</h1></header>
     <p className="paragraph">
-      Hi, my name's Josias Buday Dias. I'm <span id="years"></span> years old and I'm from Brazil. I'm 
+      Hi, my name's Josias Buday Dias. I'm {currentYears} years old and I'm from Brazil. I'm 
       graduated in Technological (it's similar to an associate degree) course in Analysis and Systems Development at 
       Universidade Estácio de Sá. <br /><br /> 
 
