@@ -1,284 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A Full-Stack ReactJS and ExpressJS Developer" />
-  <meta property="og:title" content="A Full-Stack ReactJS and ExpressJS Developer" />
-  <meta
-    property="og:description"
-    content="A Full-Stack JS developer specialized in TypeScript, React.js and Express.js"
-  />
-  <meta
-    property="og:image"
-    content="images/website-desktop.png"
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Full-Stack ReactJS and ExpressJS Developer" />
+    <meta property="og:title" content="A Full-Stack ReactJS and ExpressJS Developer" />
+    <meta
+      property="og:description"
+      content="A Full-Stack JS developer specialized in TypeScript, React.js and Express.js"
     />
-  <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
-  <!-- Font Awesome -->
-  <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    <meta
+      property="og:image"
+      content="images/website-desktop.png"
+      />
+    <meta
+      property="og:image"
+      content="images/website-mobile.png"
     />
-  <!-- Dev Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-  <!-- My Style -->
-  <link rel="stylesheet" href="css/style.css">
-  <title>Josias Buday Dias</title>
-</head>
-<body>
-  <nav id="main-navigation">
-    <div class="links">
-      <a href="#about">About</a>
-      <a href="#technologies">My techonologies</a>
-      <a href="#other-skills">Other skills</a>
-      <a href="#live-projects">My live projects</a>
-      <a href="#hire-me">Hire Me</a>
-    </div>
-  </nav>
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      />
+    <!-- Dev Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Josias Buday Dias</title>
+  </head>
+  <body>
+    <div id="root"></div>
 
-  <aside>
-    <header><h1>Josias Buday Dias</h1></header>
-    <hr>
-    <img src="https://avatars.githubusercontent.com/u/105136787?s=400&u=6af6f17c26fcbef8bf960cdc7257d67dc3c8b4e1&v=4">
-    <h2>
-      A <span class="emphasize">Full-Stack JS</span> Developer
-    </h2>
-    <section id="contacts">
-      These are my contacts:
-      <ul>
-        <a href="https://github.com/josiasbudaydeveloper" target="_blank">
-          <li>
-            <ion-icon name="logo-github"></ion-icon>
-            <span class="contact-text">GitHub</span>
-          </li>
-        </a>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-        <a href="https://www.linkedin.com/in/josias-buday-dias-b5a3a2253/" target="_blank">
-          <li>
-            <ion-icon name="logo-linkedin"></ion-icon>
-            <span class="contact-text">LinkedIn</span>
-          </li>
-        </a>
-
-        <a href="mailto:josiasbudaydeveloper@gmail.com" title="josiasbudaydeveloper@gmail.com" target="_blank">
-          <li>
-            <ion-icon name="mail"></ion-icon>
-            <span class="contact-text">Email</span>
-          </li>
-        </a>
-
-        <a href="https://wa.me/5514996908677" target="_blank">
-          <li>
-            <ion-icon name="logo-whatsapp"></ion-icon>
-            <span class="contact-text">Whatsapp</span>
-          </li>
-        </a>
-
-        <a href="https://t.me/Josias_Buday" target="_blank">
-          <li>
-            <ion-icon name="send-outline"></ion-icon>
-            <span class="contact-text">Telegram</span>
-          </li>
-        </a>
-      </ul>
-    </section>
-  </aside>
-  
-  <main style="display: flex; justify-content: center; flex-direction: row;">
-    <div style="max-width: 992px;">
-      <section id="about" class="paddingX paddingY">
-        <header><h1 class="emphasize main-header">About me</h1></header>
-        <p class="paragraph">
-          Hi, my name's Josias Buday Dias. I'm <span id="years"></span> years old and I'm from Brazil. I'm 
-          graduated in Technological (it's similar to an associate degree) course in Analysis and Systems Development at 
-          Universidade Estácio de Sá. <br /><br /> 
-
-          Currenly, I'm preparing for study and start the Next.js 14's Official Tutorial, a beautiful 
-          and responsive SPA (Single Page Application) Dashboard, 
-          totally based on the Next.js's App Router feature and all the main features of a 
-          complete application: <br /><br />
-            - Authentication, <br />
-            - Serverless <br />
-            - PostGreSQL on Vercel <br />
-            - Pagination <br />
-          <br><br>
-          I think I'm currently between B1 to B2 English Speaking Level.
-          <br><br>
-          
-        </p>
-      </section>
-
-      <section id="technologies" class="paddingX paddingY">
-        <header><h1 class="emphasize main-header">My techonologies</h1></header>
-        <p class="paragraph">These are these are the main technologies I currently know: </p>
-        <section class="items-area">
-          <section>
-            <header><h1 class="items-area-item-header">Front-End</h1></header>
-              
-            <div class="logos-area">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML 5" alt="HTML 5"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  title="CSS 3" alt="CSS 3"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"  title="JavaScript" alt="JavaScript"/>   
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap"/>            
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React.js" alt="React.js"/>   
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" title="Tailwind.css" alt="Tailwind.css"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" title="Next.js (Only App Router for now)" alt="Next.js (Only App Router for now)"/>
-            </div>
-          </section>
-    
-          <section>
-            <header><h1 class="items-area-item-header">Back-End</h1></header>
-    
-            <div class="logos-area">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"  title="Node.js" alt="Node.js"/>            
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"  title="Express.js" alt="Express.js"/>            
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" title="Jest" alt="Jest"/>            
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" title="Sequelize" alt="Sequelize"/>             
-            </div>
-          </section>
-    
-          <section>
-            <header><h1 class="items-area-item-header">Database</h1></header>
-    
-            <div class="logos-area">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"  title="MongoDB" alt="MongoDB"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" title="PostGreSQL" alt="PostGreSQL"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" title="MySQL / MariaDB" alt="MySQL / MariaDB"/>
-            </div>
-            
-          </section>
-    
-          <section>
-            <header><h1 class="items-area-item-header">DevOps</h1></header>
-    
-            <div class="logos-area">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"  title="Git" alt="Git"/>            
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" title="GitHub" alt="GitHub"/>          
-            </div>
-          </section>
-        </section>
-      </section>
-
-      <section id="other-skills" class="paddingX paddingY">
-        <header><h1 class="emphasize main-header">Other skills</h1></header>
-        <div class="paragraph">
-          <p>These are some of other skills I currently know: </p>
-          <section class="skill-item">
-            <ul>
-              <li>TDD (Test Driven Development)</li>
-              <li>Microservices Architecture</li>
-              <li>Vercel deployments</li>
-            </ul>
-          </section>
-        </div>
-      </section>
-
-      <section id="live-projects" class="paddingX paddingY">
-        <header><h1 class="emphasize main-header">My live projects</h1></header>
-        <p class="paragraph">
-          These boxes below are my current online projects. If you want to know 
-          all that I did, I strongly recommend you to access my GitHub Profile (josiasbudaydeveloper):
-        </p>
-        <section class="items-area">
-          <section>
-            <header>
-              <h1 class="items-area-item-header">
-                Next.js 13's Official Pages Router Tutorial
-              </h1>
-            </header>
-            <div class="description-overflow">
-              <p>
-                A simple fake blog for teaching Next.js 13's Pages Router principles: <br>
-                  - CSR vs SSR vs SSG <br />
-                  - Styling, Performance & SEO  <br />
-                  - TypeScript <br />
-              </p>
-            </div>
-              
-            <div class="logos-area image-text-container">
-              <a 
-                href="https://josiasbudaydeveloper-blog-app.vercel.app/" 
-                target="_blank"
-              >
-                <img 
-                  src="images/BlogApp.png" style="width: 100%; height: auto; object-fit: contain;"
-                  alt="Blog App: A simple fake blog for teaching the Next.js's principles"
-                  title="Visit"
-                />
-                <span class="image-text-centered">Click me</span>
-              </a>
-            </div>
-          </section>
-
-          <section>
-            <header><h1 class="items-area-item-header">JavaScript Mastery's HooBank Tutorial</h1></header>
-            <div class="description-overflow">
-              <p>Beautiful Responsive Web Design built with React.js, Vite, TypeScript and Tailwind.css</p>
-            </div>
-              
-            <div class="logos-area image-text-container">
-              <a 
-                href="https://josiasbudaydeveloper-beautiful-responsive-web-design.vercel.app/" 
-                target="_blank"
-              >
-                <img 
-                  src="images/HooBank.png" style="width: 100%; height: auto; object-fit: contain;"
-                  alt="HooBank: A beautiful responsive web design"
-                  title="Visit"
-                />
-                <span class="image-text-centered">Click me</span>
-              </a>
-            </div>
-          </section>
-        </section>
-      </section>
-
-      <section id="hire-me" class="paddingX paddingY">
-        <p class="paragraph">
-          I'm currently: <span class="emphasize">looking</span> for a job! <br />
-          You can see my CV at: 
-          <a href="https://docs.google.com/document/d/1xMp28sI9VihSy4nrfQ91WBeyScseWrqkQKB0tSUSNFI/edit?usp=sharing" 
-            target="_blank" class="main-anchor emphasize"
-          >
-            My Full-Stack JS Developer CV
-          </a> <br />
-          If I didn't match your requirements, please consider my for your future applications!
-        </p>
-      </section>
-
-      <footer class="paddingX paddingY">
-        <h1 class="emphasize text-center main-header paddingY">Thanks for visiting me!</h1>
-      </footer>
-    </div>
-  </main>
-
-  <!-- Ionic Icons -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-  <!-- Personal Script Configuration -->
-  <script>
-    function calculateAge(birthDate) {
-      const now = new Date();
-      let yearDiff = now.getFullYear() - birthDate.getFullYear();
-      const monthDiff = now.getMonth() - birthDate.getMonth();
-      const dayDiff = now.getDate() - birthDate.getDate();
-      
-      // Adjust age when birth date is later in the year
-      if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
-        yearDiff--;
-      }
-      
-      return yearDiff;
-    }
-
-    window.onload = (() => {
-      const birthDate = new Date('1999-10-14');
-      let years = calculateAge(birthDate);
-      document.getElementById('years').innerText = years;
-    });
-  </script>
-</body>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
