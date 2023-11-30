@@ -29,8 +29,8 @@ export default function About() {
     <header><h1 className="emphasize main-header">About me</h1></header>
     <p className="paragraph">
       Hi, my name's Josias Buday Dias. I'm {currentYears} years old and I'm from Brazil. I'm 
-      graduated in Technological (it's similar to an associate degree) course in Analysis and Systems Development at 
-      Universidade Estácio de Sá. <br /><br /> 
+      graduated in Superior Technological (it's similar to an associate degree) course in Analysis and 
+      Systems Development at Universidade Estácio de Sá. <br /><br /> 
 
       Currenly, I'm preparing for study and start the Next.js 14's Official Tutorial, a beautiful 
       and responsive SPA (Single Page Application) Dashboard, 
