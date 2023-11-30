@@ -3,6 +3,44 @@ import {
   HooBank
 } from '../assets';
 
+export const contactsList = [
+  {
+    id: "GitHub",
+    title: "GitHub",
+    content: "GitHub",
+    logo: "logo-github",
+    href: "https://github.com/josiasbudaydeveloper"
+  },
+  {
+    id: "LinkedIn",
+    title: "LinkedIn",
+    content: "LinkedIn",
+    logo: "logo-linkedin",
+    href: "https://www.linkedin.com/in/josias-buday-dias-b5a3a2253/"
+  },
+  {
+    id: "Email",
+    title: "josiasbudaydeveloper@gmail.com",
+    content: "Email",
+    logo: "mail",
+    href: "mailto:josiasbudaydeveloper@gmail.com"
+  },
+  {
+    id: "WhatsApp",
+    title: "+55 (014) 99690-8677",
+    content: "WhatsApp",
+    logo: "logo-whatsapp",
+    href: "https://wa.me/5514996908677"
+  },
+  {
+    id: "Telegram",
+    title: "+55 (014) 99690-8677",
+    content: "Telegram",
+    logo: "send-outline",
+    href: "https://t.me/Josias_Buday"
+  }
+]
+
 export const technologies = [
   {
     id: "Front-End",
