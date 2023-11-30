@@ -12,4 +12,5 @@ was growing so fast and becoming confusing and hard to maintain.
 
 Now it's really well organized.
 
-> I'm considering to replace the styles from pure CSS to Tailwind.css futurely
+> I'm considering to replace the styles from pure CSS to Tailwind.css futurely, that's already configured
+> and can help me bringing a dark theme for my website.
