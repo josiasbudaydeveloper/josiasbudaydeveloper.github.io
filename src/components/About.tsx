@@ -28,7 +28,7 @@ export default function About() {
   <section id="about" className="paddingX paddingY">
     <header><h1 className="emphasize main-header">About me</h1></header>
     <p className="paragraph">
-      Hi, my name's Josias Buday Dias.<b>TEST</b> I'm {currentYears} years old and I'm from Brazil. I'm 
+      Hi, my name's Josias Buday Dias. I'm {currentYears} years old and I'm from Brazil. I'm 
       graduated in Technological (it's similar to an associate degree) course in Analysis and Systems Development at 
       Universidade Estácio de Sá. <br /><br /> 
 
