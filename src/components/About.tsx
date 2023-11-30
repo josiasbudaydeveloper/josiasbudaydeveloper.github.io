@@ -28,9 +28,9 @@ export default function About() {
   <section id="about" className="paddingX paddingY">
     <header><h1 className="emphasize main-header">About me</h1></header>
     <p className="paragraph">
-      Hi, my name's Josias Buday Dias. I'm {currentYears} years old and I'm from Brazil. I'm 
-      graduated in Superior Technological (it's similar to an associate degree) course in Analysis and 
-      Systems Development at Universidade Estácio de Sá. <br /><br /> 
+      Hi, my name's Josias Buday Dias. I'm {currentYears} years old and I'm from Brazil. 
+      I have a degree in Systems Analysis and Development from Universidade Estácio de Sá, a 
+      technological higher education course that is similar to an associate's degree <br /><br /> 
 
       Currenly, I'm preparing for study and start the Next.js 14's Official Tutorial, a beautiful 
       and responsive SPA (Single Page Application) Dashboard, 
@@ -41,7 +41,7 @@ export default function About() {
         - PostGreSQL on Vercel <br />
         - Pagination <br />
       <br /><br />
-      I think I'm currently between B1 to B2 English Speaking Level.
+      I consider myself at the B1 English Speaking Level.
       <br /><br />
       
     </p>
