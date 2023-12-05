@@ -1,4 +1,4 @@
-import Navigation from "./Navigation";
+import DesktopNavigation from "./DesktopNavigation";
 import MobileNavigation from "./MobileNavigation";
 import Aside from "./Aside";
 import About from "./About";
@@ -9,7 +9,7 @@ import HireMe from "./HireMe";
 import Footer from "./Footer";
 
 export {
-  Navigation,
+  DesktopNavigation,
   MobileNavigation,
   Aside,
   About,

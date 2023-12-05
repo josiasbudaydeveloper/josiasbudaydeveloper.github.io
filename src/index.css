@@ -100,6 +100,7 @@ aside {
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 2;
   height: 100%;
   width: var(--aside-main);
   background-color: var(--secondary-background);
@@ -170,6 +171,7 @@ aside h2, #contacts {
   position: fixed;
   right: 0;
   top: 0;
+  z-index: 1;
   width: 100vw;
   box-sizing: border-box;
   height: 60px;

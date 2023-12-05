@@ -1,5 +1,5 @@
 import {
-  Navigation,
+  DesktopNavigation,
   MobileNavigation,
   Aside,
   About, 
@@ -12,7 +12,7 @@ import {
 
 function App() { return (
 <>
-  <Navigation />
+  <DesktopNavigation />
 
   <Aside />
 
