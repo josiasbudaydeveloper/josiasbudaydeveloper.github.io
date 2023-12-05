@@ -32,7 +32,7 @@ export default function About() {
       I have a degree in Systems Analysis and Development from Universidade Estácio de Sá, a 
       technological higher education course that is similar to an associate's degree <br /><br /> 
 
-      Currenly, I'm preparing for study and start the Next.js 14's Official Tutorial, a beautiful 
+      Currenly, I'm studying and doing the Next.js 14's Official Tutorial, a beautiful 
       and responsive SPA (Single Page Application) Dashboard, 
       totally based on the Next.js's App Router feature and all the main features of a 
       complete application: <br /><br />

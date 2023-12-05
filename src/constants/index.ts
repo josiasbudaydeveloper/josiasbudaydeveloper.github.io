@@ -86,8 +86,8 @@ export const technologies = [
       { 
         id: "Next.js",
         link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
-        title: "Next.js (Only App Router for now)",
-        alt: "Next.js (Only App Router for now)"
+        title: "Next.js (Both Pages and App Router)",
+        alt: "Next.js (Both Pages and App Router)"
       }
     ]
   },
