@@ -1,5 +1,6 @@
 import {
   BlogApp,
+  DashboardApp,
   HooBank
 } from '../assets';
 
@@ -189,5 +190,18 @@ export const liveProjects = [
     link: "https://josiasbudaydeveloper-beautiful-responsive-web-design.vercel.app/",
     img: HooBank,
     alt: "HooBank: A beautiful responsive web design"
+  },
+  {
+    id: "DashboardApp",
+    header: "NextJS 14's Dashboard App Tutorial (App Router)",
+    description: `An amazing project that is teaching me all of the most current features of Next.js 14, including: <br />
+    - Set up a local environment and initializing the "ACME" Next.js project template. <br />
+    - Using pre-styled components as part of each chapter that leverage Next.js conventions and patterns. <br />
+    - Hook up real application logic and data to bring a fully-fledged demo website to life. <br />
+    - A website that’s ready to ship and the knowledge to build and deploy my own.
+    `,
+    link: "https://josiasbudaydeveloper-next-14-dashboard-app.vercel.app/",
+    img: DashboardApp,
+    alt: "NextJS 14's Dashboard App Tutorial (App Router)"
   }
 ]
