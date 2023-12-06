@@ -66,6 +66,12 @@ export const technologies = [
         alt: "JavaScript"
       },
       { 
+        id: "TypeScript",
+        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        title: "TypeScript",
+        alt: "TypeScript"
+      },
+      { 
         id: "Bootstrap",
         link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
         title: "Bootstrap",

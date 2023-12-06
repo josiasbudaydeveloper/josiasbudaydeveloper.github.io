@@ -8,6 +8,7 @@ export default function OtherSkills() { return (
           <li>TDD (Test Driven Development)</li>
           <li>Microservices Architecture</li>
           <li>Vercel deployments</li>
+          <li>Vercel PostGres</li>
         </ul>
       </section>
     </div>
