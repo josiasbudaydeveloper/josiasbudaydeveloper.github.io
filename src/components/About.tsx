@@ -36,12 +36,15 @@ export default function About() {
       and responsive SPA (Single Page Application) Dashboard, 
       totally based on the Next.js's App Router feature and all the main features of a 
       complete application: <br /><br />
-        - Authentication, <br />
+        - Authentication <br />
         - Serverless <br />
         - PostGreSQL on Vercel <br />
         - Pagination <br />
       <br /><br />
-      I consider myself at the B1 English Speaking Level.
+      I consider myself at the B1 English Speaking Level, but I'm always improving my English skills, through: <br /><br />
+        - Asking ChatGPT (mainly with Bing AI) <br />
+        - Reading Documentation and Articles in English <br />
+        - Watching video tutorials in English on YouTube. <br />
       <br /><br />
       
     </p>
