@@ -213,7 +213,7 @@ main {
 /* Technologies & Projects Section */
 .items-area {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
