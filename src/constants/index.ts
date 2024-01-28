@@ -200,11 +200,24 @@ export const liveProjects = [
   {
     id: "DashboardApp",
     header: "NextJS 14's Dashboard App Tutorial (App Router)",
-    description: `An amazing project that is teaching me all of the most current features of Next.js 14, including: <br />
-    - Set up a local environment and initializing the "ACME" Next.js project template. <br />
-    - Using pre-styled components as part of each chapter that leverage Next.js conventions and patterns. <br />
-    - Hook up real application logic and data to bring a fully-fledged demo website to life. <br />
-    - A website that’s ready to ship and the knowledge to build and deploy my own.
+    description: `A Dashboard App where users can create an account 
+      (with their credentials or using an OAuth provider), create customers and assign invoices to them. 
+      Invoices will be shown at the Dashboard page as a summary. <br /><br />
+
+      <ul>
+        <li>
+          There's also a darkmode built with Tailwind.css that's 
+          based on the user's browser theme.
+        </li>
+        <li>
+          If the account was created using an OAuth provider, it will be impossible to create another 
+          account using the same email as the one of the account assotiated with that OAuth provider. If the
+          user wants to login with the same email he used for his OAuth assotiated account, he needs to login
+          with his OAuth provider and once logged in, he needs to go to the Profile page and assign a password
+          for his account. Then he will be able to login with both his credentials and his OAuth provider.
+        </li>
+      </ul>
+
     `,
     link: "https://josiasbudaydeveloper-next-14-dashboard-app.vercel.app/",
     img: DashboardApp,
