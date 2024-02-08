@@ -4,6 +4,8 @@ import {
   HooBank
 } from '../assets';
 
+import Logos from '../assets/technology-logos';
+
 export const contactsList = [
   {
     id: "GitHub",
@@ -49,49 +51,61 @@ export const technologies = [
     skills: [
       { 
         id: "HTML 5",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        link: Logos.HTML,
         title: "HTML 5",
         alt: "HTML 5"
       },
       { 
         id: "CSS 3",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        link: Logos.CSS,
         title: "CSS 3",
         alt: "CSS 3"
       },
       { 
         id: "JavaScript",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        link: Logos.JavaScript,
         title: "JavaScript",
         alt: "JavaScript"
       },
       { 
         id: "TypeScript",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        link: Logos.TypeScript,
         title: "TypeScript",
         alt: "TypeScript"
       },
       { 
         id: "Bootstrap",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+        link: Logos.Bootstrap,
         title: "Bootstrap",
         alt: "Bootstrap"
       },
       { 
         id: "React.js",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        link: Logos.React,
         title: "React.js",
         alt: "React.js"
       },
       { 
+        id: "ReactBoostrap.js",
+        link: Logos.ReactBootstrap,
+        title: "ReactBoostrap.js",
+        alt: "ReactBoostrap.js"
+      },
+      { 
         id: "Tailwind.css",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        link: Logos.Tailwind,
         title: "Tailwind.css",
         alt: "Tailwind.css"
       },
       { 
+        id: "Vite.js",
+        link: Logos.Vite,
+        title: "Vite.js",
+        alt: "Vite.js"
+      },
+      { 
         id: "Next.js",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
+        link: Logos.Next,
         title: "Next.js (Both Pages and App Router)",
         alt: "Next.js (Both Pages and App Router)"
       }
@@ -103,31 +117,31 @@ export const technologies = [
     skills: [
       { 
         id: "Node.js",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        link: Logos.Node,
         title: "Node.js",
         alt: "Node.js"
       },
       { 
         id: "Express.js",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        link: Logos.Express,
         title: "Express.js",
         alt: "Express.js"
       },
       { 
         id: "TypeScript",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        link: Logos.TypeScript,
         title: "TypeScript",
         alt: "TypeScript"
       },
       { 
         id: "Jest",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+        link: Logos.Jest,
         title: "Jest",
         alt: "Jest"
       },
       { 
         id: "Sequelize",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
+        link: Logos.Sequelize,
         title: "Sequelize",
         alt: "Sequelize"
       }
@@ -139,19 +153,19 @@ export const technologies = [
     skills: [
       { 
         id: "MongoDB",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+        link: Logos.MongoDB,
         title: "MongoDB",
         alt: "MongoDB"
       },
       { 
         id: "PostGreSQL",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg",
+        link: Logos.PostGreSQL,
         title: "PostGreSQL",
         alt: "PostGreSQL"
       },
       { 
         id: "MySQLandMariaDB",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+        link: Logos.MySQL,
         title: "MySQL / MariaDB",
         alt: "MySQL / MariaDB"
       },
@@ -163,13 +177,13 @@ export const technologies = [
     skills: [
       { 
         id: "Git",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
+        link: Logos.Git,
         title: "Git",
         alt: "Git"
       },
       { 
         id: "GitHub",
-        link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
+        link: Logos.GitHub,
         title: "GitHub",
         alt: "GitHub"
       }
