@@ -1,4 +1,5 @@
 import {
+  BeautifulFigmaDesignToRealWebPage,
   BlogApp,
   DashboardApp,
   HooBank
@@ -236,5 +237,16 @@ export const liveProjects = [
     link: "https://josiasbudaydeveloper-next-14-dashboard-app.vercel.app/",
     img: DashboardApp,
     alt: "NextJS 14's Dashboard App Tutorial (App Router)"
+  },
+  {
+    id: "Beautiful Figma Design to Real Web Page",
+    header: "Beautiful Figma Design to Real Web Page",
+    description: `A fake website where I got a public Figma design created by JavaScript Mastery
+      for a tutorial of using AI to convert it to a real web page, but I decided to implement it
+      on my own, using Next.js 14, TypeScript and Tailwind.css
+    `,
+    link: "https://josiasbudaydeveloper-beautiful-figma-design-to-real-web-page.vercel.app/",
+    img: BeautifulFigmaDesignToRealWebPage,
+    alt: "Beautiful Figma Design to Real Web Page"
   }
 ]
