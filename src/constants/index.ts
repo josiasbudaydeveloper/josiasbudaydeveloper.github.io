@@ -41,7 +41,7 @@ export const contactsList = [
     title: "+55 (014) 99690-8677",
     content: "Telegram",
     logo: "send-outline",
-    href: "https://t.me/Josias_Buday"
+    href: "https://t.me/josiasbuday"
   }
 ]
 
