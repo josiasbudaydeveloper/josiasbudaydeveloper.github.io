@@ -4,7 +4,7 @@ export default function HireMe() { return (
       I'm currently: <span className="emphasize">looking</span> for a job! <br />
       You can see my CV at: 
       <a 
-        href="https://docs.google.com/document/d/1xMp28sI9VihSy4nrfQ91WBeyScseWrqkQKB0tSUSNFI/edit?usp=sharing" 
+        href="https://docs.google.com/document/d/1EGWjHB5KhHXdI9thR4rtA4H-hRUB8J4BwbeNhXSjsO8/edit?usp=sharing" 
         target="_blank" className="main-anchor emphasize"
       >
       {" "}My Full-Stack JS Developer CV
