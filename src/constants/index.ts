@@ -1,6 +1,6 @@
 import {
   BeautifulFigmaDesignToRealWebPage,
-  BlogApp,
+  // BlogApp,
   DashboardApp,
   HooBank
 } from '../assets';
@@ -45,7 +45,16 @@ export const contactsList = [
   }
 ]
 
-export const technologies = [
+export const technologies : {
+  id: string,
+  header: string,
+  skills: {
+    id: string;
+    link: string;
+    title: string;
+    alt: string;
+  }[]
+}[] = [
   {
     id: "Front-End",
     header: "Front-End",
@@ -149,6 +158,36 @@ export const technologies = [
     ]
   },
   {
+    id:"DevOps",
+    header: "DevOps",
+    skills: [
+      { 
+        id: "Git",
+        link: Logos.Git,
+        title: "Git",
+        alt: "Git"
+      },
+      { 
+        id: "GitHub",
+        link: Logos.GitHub,
+        title: "GitHub",
+        alt: "GitHub"
+      }
+    ]
+  },
+  {
+    id: "CMS",
+    header: "CMS",
+    skills: [
+      { 
+        id: "Payload",
+        link: Logos.Payload,
+        title: "Payload",
+        alt: "Payload"
+      }
+    ]
+  },
+  {
     id:"Database",
     header: "Database",
     skills: [
@@ -171,39 +210,21 @@ export const technologies = [
         alt: "MySQL / MariaDB"
       },
     ]
-  },    
-  {
-    id:"DevOps",
-    header: "DevOps",
-    skills: [
-      { 
-        id: "Git",
-        link: Logos.Git,
-        title: "Git",
-        alt: "Git"
-      },
-      { 
-        id: "GitHub",
-        link: Logos.GitHub,
-        title: "GitHub",
-        alt: "GitHub"
-      }
-    ]
   }
 ]
 
 export const liveProjects = [
-  {
-    id: "BlogApp",
-    header: "Next.js 13's Official Pages Router Tutorial",
-    description: `A simple fake blog for teaching Next.js 13's Pages Router principles: <br />
-    - CSR vs SSR vs SSG <br />
-    - Styling, Performance & SEO  <br />
-    - TypeScript <br />`,
-    link: "https://josiasbudaydeveloper-blog-app.vercel.app/",
-    img: BlogApp,
-    alt: "Blog App: A simple fake blog for teaching the Next.js's principles"
-  },
+  // {
+  //   id: "BlogApp",
+  //   header: "Next.js 13's Official Pages Router Tutorial",
+  //   description: `A simple fake blog for teaching Next.js 13's Pages Router principles: <br />
+  //   - CSR vs SSR vs SSG <br />
+  //   - Styling, Performance & SEO  <br />
+  //   - TypeScript <br />`,
+  //   link: "https://josiasbudaydeveloper-blog-app.vercel.app/",
+  //   img: BlogApp,
+  //   alt: "Blog App: A simple fake blog for teaching the Next.js's principles"
+  // },
   {
     id: "HooBank",
     header: "JavaScript Mastery's HooBank Tutorial",

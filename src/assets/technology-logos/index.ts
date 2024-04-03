@@ -21,6 +21,8 @@ import MySQL from './mysql.svg';
 import Git from './git.svg';
 import GitHub from './github.svg';
 
+import Payload from './payload-logo.png';
+
 export default {
   HTML,
   CSS,
@@ -43,5 +45,7 @@ export default {
   MySQL,
 
   Git,
-  GitHub
+  GitHub,
+
+  Payload
 }
