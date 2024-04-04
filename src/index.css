@@ -1,9 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 /* Root variables */
 :root {
   --primary-color: black;
@@ -72,15 +68,11 @@ p {
 }
 
 .paddingY {
-  padding: 10px 0;
+  padding: 40px 0;
 }
 
 .paddingX {
   padding: 0 40px;
-}
-
-.paragraph {
-  font-weight: bold;
 }
 
 .emphasize {
@@ -137,7 +129,6 @@ aside h2 {
 aside h2, #contacts {
   color: var(--secondary-color);
   font-size: 1rem;
-  font-weight: normal;
   padding: 20px 20px 0 20px;
 }
 
@@ -218,7 +209,6 @@ main {
 }
 
 .items-area-item-header {
-  font-weight: bold;
   font-size: 18px;
   width: 400px;
   border-left: 8px solid var(--emphasize-color);
@@ -235,7 +225,6 @@ main {
 
 .items-area p {
   height: 37px;
-  font-weight: bold;
 }
 
 .items-area img {
@@ -266,7 +255,6 @@ main {
   padding: 20px;
   color: white;
   font-size: 16px;
-  font-weight: 600;
 }
 
 .image-text-centered:hover {
