@@ -54,7 +54,7 @@ body {
   overflow-y: auto;
 }
 
-h1 {
+h2 {
   font-family: Tahoma;
 }
 
@@ -122,11 +122,11 @@ aside #profile-picture {
   margin: auto;
 }
 
-aside h2 {
+aside p {
   text-align: center;
 }
 
-aside h2, #contacts {
+aside p, #contacts {
   color: var(--secondary-color);
   font-size: 1rem;
   padding: 20px 20px 0 20px;
@@ -181,7 +181,6 @@ aside h2, #contacts {
   color: var(--primary-color);
   text-decoration: none;
   font-size: 16px;
-  font-weight: bold;
 }
 
 #main-navigation .links a:hover {

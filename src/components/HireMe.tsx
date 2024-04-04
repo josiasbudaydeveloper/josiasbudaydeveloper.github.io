@@ -1,5 +1,5 @@
 export default function HireMe() { return (
-  <section id="hire-me" className="paddingX paddingY">
+  <section id="hire-me" style={{padding: '40px 40px 0 40px'}}>
     <span style={{fontWeight: 'bold'}}>I'm currently:</span> <span className="emphasize">looking</span> for a job! <br />
     <span style={{fontWeight: 'bold'}}>You can see my CV at:</span>
     <a 
