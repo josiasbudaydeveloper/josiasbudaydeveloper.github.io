@@ -8,6 +8,7 @@ export default function HireMe() { return (
     >
     {" "}My Full-Stack JS Developer CV
     </a> <br /><br />
-    If I didn't match your requirements, please consider my for your future applications!
+    If I didn't match your requirements, please consider to send me an email for helping me <br />
+    and please consider me for your future applications!
   </section>
 )}
