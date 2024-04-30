@@ -175,18 +175,18 @@ export const technologies : {
       }
     ]
   },
-  {
-    id: "CMS",
-    header: "CMS",
-    skills: [
-      { 
-        id: "Payload",
-        link: Logos.Payload,
-        title: "Payload",
-        alt: "Payload"
-      }
-    ]
-  },
+  // {
+  //   id: "CMS",
+  //   header: "CMS",
+  //   skills: [
+  //     { 
+  //       id: "Payload",
+  //       link: Logos.Payload,
+  //       title: "Payload",
+  //       alt: "Payload"
+  //     }
+  //   ]
+  // },
   {
     id:"Database",
     header: "Database",
