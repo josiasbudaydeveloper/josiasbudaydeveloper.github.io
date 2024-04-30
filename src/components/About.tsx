@@ -36,15 +36,20 @@ export default function About() {
       ChatGPT and Microsoft Copilot (which has speech and image recognition, as 
       well as image generation via prompt) <br /><br />
       
-      <h3>Learning:</h3>
+      {/* <h3>Learning:</h3>
       <ul>
         <li>Cross Platform development with React Native (Expo)</li>
         <li>PayloadJS for Content Management and its integration with the Stripe payment gateway</li>
-      </ul>
+      </ul> */}
       
       <h3>Languages:</h3>
       <ul>
-        <li>English - Intermediate (ready for writting and reading)</li>
+        <li>English - B1: 
+          <a href="https://cert.efset.org/CsLdCH" target="_blank">
+            click here
+          </a> 
+          &nbsp;to see EF Set certificate
+        </li>
         <li>Portuguese - Native</li>
       </ul>
     </div>
