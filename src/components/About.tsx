@@ -4,33 +4,16 @@ export default function About() {
     <header><h1 className="emphasize main-header">About me</h1></header>
     <div>
       <h2>Full Stack JS/TS Developer with Next/Express.</h2>
-      <p>
-        I am a Full Stack developer with JavaScript and TypeScript, specialized in 
-        developing Single Page Applications with React.js and Next.js. I am also able 
-        to develop RestFul APIs with the Express.js framework. Main skills:
-      </p>
-      
-      <h3>Technologies:</h3>
-      <ul>
-        <li>HTML5,</li>
-        <li>CSS3,</li>
-        <li>JavaScript,</li>
-        <li>TypeScript,</li>
-        <li>Bootstrap 5,</li>
-        <li>React-Bootstrap 5,</li>
-        <li>Tailwind.css,</li>
-        <li>Node.js,</li>
-        <li>React.js,</li>
-        <li>Next.js 14,</li>
-        <li>Auth.js 4,</li>
-        <li>Express.js 4,</li>
-        <li>JWT,</li>
-        <li>Jest,</li>
-        <li>MongoDB,</li>
-        <li>SQL,</li>
-        <li>Git</li>
-        <li>GitHub</li>
-      </ul>
+      Hello, I am Josias Buday Dias, a passionate and proficient Junior Full Stack Developer from Brazil.<br /> 
+      With a solid educational foundation and certifications, I bring hands-on experience in Node.js,<br />
+      TypeScript, Express.js, React.js, and Next.js. My proficiency in English is at a B1 - Intermediate<br />
+      level, enabling effective communication in diverse environments.<br /><br />
+
+      <h3>Main Hard Skills:</h3>
+      HTML5 | CSS3 | JavaScript | TypeScript | Bootstrap 5 | React-Bootstrap 5 | Tailwind.css | Node.js |<br />
+      React.js | Next.js 14 | Auth.js 4 | Express.js 4 | JWT | Jest | TDD | Microservices Architecture |<br />
+      MongoDB | SQL | Git | GitHub<br /><br />
+
 
       <h3>Generative Artificial Intelligences:</h3>
       ChatGPT and Microsoft Copilot (which has speech and image recognition, as 
