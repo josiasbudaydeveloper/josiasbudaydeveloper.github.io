@@ -20,7 +20,7 @@ export const contactsList = [
     title: "LinkedIn",
     content: "LinkedIn",
     logo: "logo-linkedin",
-    href: "https://www.linkedin.com/in/josias-buday-dias-b5a3a2253/"
+    href: "https://www.linkedin.com/in/josias-buday-dias"
   },
   {
     id: "Email",

@@ -27,7 +27,7 @@ export default function About() {
       
       <h3>Languages:</h3>
       <ul>
-        <li>English - B1: 
+        <li>English - B1:&nbsp;
           <a href="https://cert.efset.org/CsLdCH" target="_blank">
             click here
           </a> 
