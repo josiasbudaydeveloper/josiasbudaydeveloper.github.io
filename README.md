@@ -5,12 +5,20 @@ Here you can find the summary of all of my programming hard-skills,
 including links to some of my live projects, where you can see what 
 I'm capable of in the real life.
 
-## Techonologies
-The initial version of this project was purely in HTML, but I choose
-to recreate it with React.js, because the code
-was growing so fast and becoming confusing and hard to maintain.
+## Full Stack JS/TS Developer with Next/Express.
+Hello, I am Josias Buday Dias, a passionate and proficient Junior Full Stack Developer from Brazil.
+With a solid educational foundation and certifications, I bring hands-on experience in Node.js,
+TypeScript, Express.js, React.js, and Next.js. My proficiency in English is at a B1 - Intermediate
+level, enabling effective communication in diverse environments.
 
-Now it's really well organized.
+### Main Hard Skills:
+HTML5 | CSS3 | JavaScript | TypeScript | Bootstrap 5 | React-Bootstrap 5 | Tailwind.css | Node.js |
+React.js | Next.js 14 | Auth.js 4 | Express.js 4 | JWT | Jest | TDD | Microservices Architecture |
+MongoDB | SQL | Git | GitHub
 
-> I'm considering to replace the styles from pure CSS to Tailwind.css futurely, that's already configured
-> and can help me bringing a dark theme for my website.
+### Generative Artificial Intelligences:
+ChatGPT and Microsoft Copilot (which has speech and image recognition, as well as image generation via prompt)
+
+### Languages:
+- English - B1: click here to see EF Set certificate
+- Portuguese - Native
