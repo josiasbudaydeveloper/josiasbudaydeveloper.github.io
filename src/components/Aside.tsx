@@ -15,7 +15,7 @@ export default function Aside() { return (
     </p>
     <Contacts />
 
-    <section style={{
+    {/* <section style={{
       display: "flex",
       alignItems: "center",
       paddingLeft: "20px",
@@ -28,6 +28,6 @@ export default function Aside() { return (
       }}
         src={Logos.Vite} 
       />
-    </section>
+    </section> */}
   </ aside>
 )}
