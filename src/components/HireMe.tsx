@@ -3,7 +3,7 @@ export default function HireMe() { return (
     <span style={{fontWeight: 'bold'}}>I'm currently:</span> <span className="emphasize">looking</span> for a job! <br />
     <span style={{fontWeight: 'bold'}}>You can see my CV at:</span>
     <a 
-      href="https://docs.google.com/document/d/1EGWjHB5KhHXdI9thR4rtA4H-hRUB8J4BwbeNhXSjsO8/edit?usp=sharing" 
+      href="https://www.canva.com/design/DAGFFxqSNPs/eOYpY2Xrhi8T6CCyImwwGA/view?utm_content=DAGFFxqSNPs&utm_campaign=designshare&utm_medium=link&utm_source=editor" 
       target="_blank" className="main-anchor emphasize"
     >
     {" "}My Full-Stack JS Developer CV
