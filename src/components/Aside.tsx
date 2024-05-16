@@ -1,5 +1,4 @@
 import Contacts from "./Contacts";
-import Logos from '../assets/technology-logos';
 
 export default function Aside() { return (
   <aside>
@@ -14,20 +13,5 @@ export default function Aside() { return (
       <span className="emphasize"> Next/Express</span>
     </p>
     <Contacts />
-
-    {/* <section style={{
-      display: "flex",
-      alignItems: "center",
-      paddingLeft: "20px",
-      color: "white"
-    }}>
-      Built with Vite.js
-      <img style={{
-        paddingLeft: "5px",
-        width: "40px"
-      }}
-        src={Logos.Vite} 
-      />
-    </section> */}
   </ aside>
 )}
